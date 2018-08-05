@@ -12,7 +12,7 @@ This is a simple script that spits out preformatted text that divides a sample i
 
 # Thanks
 
-Thanks to Gimber for allowing me to ping ideas and helping me with formulas.
+Thanks to Gimber for allowing me to ping ideas off him and formula corrections.
 
 Thanks to Rossum Electro for making kewl modules, and special thanks to Marco at Rossum for putting up with my constant support requests :D
 
