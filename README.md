@@ -1,4 +1,4 @@
-# Assimil8or
+# Assimil8or Helpers
 
 Scripts I'm using while working with the Rossum-Electro Assimil8or.  The idea is to evolve the scripts based on my own workflow based on some goal of focusing on music rather than anything else while I'm working on the modular.  If I can reduce some of the more tedious and repetitive tasks, then I can hopefully spend creative focus on music rather than configuration.
 
