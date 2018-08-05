@@ -7,25 +7,25 @@ Preset 1 :
     ZonesRT : 1
     Zone 1 :
       Sample : sampleA.wav
-      MinVoltage : +4.50
+      MinVoltage : +4.56
     Zone 2 :
       Sample : sampleB.wav
       MinVoltage : +4.48
     Zone 3 :
       Sample : sampleC.wav
-      MinVoltage : +4.41
+      MinVoltage : +4.39
     Zone 4 :
       Sample : sampleD.wav
-      MinVoltage : +4.33
+      MinVoltage : +4.31
     Zone 5 :
       Sample : sampleE.wav
-      MinVoltage : +4.25
+      MinVoltage : +4.23
     Zone 6 :
       Sample : sampleF.wav
-      MinVoltage : +4.16
+      MinVoltage : +4.14
     Zone 7 :
       Sample : sampleG.wav
-      MinVoltage : +4.07
+      MinVoltage : +4.04
     Zone 8 :
       Sample : sampleJ.wav
       MinVoltage : -5.00
@@ -36,25 +36,25 @@ Preset 1 :
     ZonesRT : 1
     Zone 1 :
       Sample : sampleA.wav
-      MinVoltage : +4.50
+      MinVoltage : +4.56
     Zone 2 :
       Sample : sampleB.wav
       MinVoltage : +4.48
     Zone 3 :
       Sample : sampleC.wav
-      MinVoltage : +4.41
+      MinVoltage : +4.39
     Zone 4 :
       Sample : sampleD.wav
-      MinVoltage : +4.33
+      MinVoltage : +4.31
     Zone 5 :
       Sample : sampleE.wav
-      MinVoltage : +4.25
+      MinVoltage : +4.23
     Zone 6 :
       Sample : sampleF.wav
-      MinVoltage : +4.16
+      MinVoltage : +4.14
     Zone 7 :
       Sample : sampleG.wav
-      MinVoltage : +4.07
+      MinVoltage : +4.04
     Zone 8 :
       Sample : sampleJ.wav
       MinVoltage : -5.00
@@ -65,25 +65,25 @@ Preset 1 :
     ZonesRT : 1
     Zone 1 :
       Sample : sampleA.wav
-      MinVoltage : +4.50
+      MinVoltage : +4.56
     Zone 2 :
       Sample : sampleB.wav
       MinVoltage : +4.48
     Zone 3 :
       Sample : sampleC.wav
-      MinVoltage : +4.41
+      MinVoltage : +4.39
     Zone 4 :
       Sample : sampleD.wav
-      MinVoltage : +4.33
+      MinVoltage : +4.31
     Zone 5 :
       Sample : sampleE.wav
-      MinVoltage : +4.25
+      MinVoltage : +4.23
     Zone 6 :
       Sample : sampleF.wav
-      MinVoltage : +4.16
+      MinVoltage : +4.14
     Zone 7 :
       Sample : sampleG.wav
-      MinVoltage : +4.07
+      MinVoltage : +4.04
     Zone 8 :
       Sample : sampleJ.wav
       MinVoltage : -5.00
@@ -94,33 +94,33 @@ Preset 1 :
     Zone 1 :
       Sample : test.wav
       SampleEnd : 6058
-      MinVoltage : +4.58
+      MinVoltage : +4.56
     Zone 2 :
       Sample : test.wav
       SampleStart : 6211
       MinVoltage : +4.48
     Zone 3 :
       Sample : test.wav
-      MinVoltage : +4.41
+      MinVoltage : +4.39
     Zone 4 :
       Sample : test.wav
       SampleStart : 102531
-      MinVoltage : +4.33
+      MinVoltage : +4.31
     Zone 5 :
       Sample : test.wav
       SampleStart : 79416
       SampleEnd : 93964
-      MinVoltage : +4.25
+      MinVoltage : +4.23
     Zone 6 :
       Sample : test.wav
       SampleStart : 23948
       SampleEnd : 39072
-      MinVoltage : +4.16
+      MinVoltage : +4.14
     Zone 7 :
       Sample : test.wav
       SampleStart : 14595
       SampleEnd : 35801
-      MinVoltage : +4.07
+      MinVoltage : +4.04
     Zone 8 :
       Sample : test.wav
       SampleEnd : 15243
