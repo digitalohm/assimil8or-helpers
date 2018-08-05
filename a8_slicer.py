@@ -12,8 +12,8 @@ with contextlib.closing(wave.open(sample_name,'r')) as f:
   length = frames / float(rate)
   sample_length = int(round(length * frames))
   division = int(round(sample_length/8))
-  print(sample_length)
-  print(division)
+  #print(sample_length)
+  #print(division)
 
 count = 0
 part = 0
