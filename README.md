@@ -9,3 +9,7 @@ The prst002.yml file is meant to be an ongoing evolution of a preset template th
 # Slicer
 
 This is a simple script that spits out preformatted text that divides a sample into 8 equal lengths (some precision lost from rounding).  I created this so that I could more easily divide zones and then fine tune the start and stop settings at the module.
+
+# Thanks
+
+Thanks to Gimber for allowing me to ping ideas and helping me with formulas.  The code was adapated from this stack answer https://stackoverflow.com/a/40652047
