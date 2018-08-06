@@ -4,7 +4,7 @@ import contextlib
 ## The following function formats a number so that it has leading 0s as needed for the sample start/end values
 def formatnumber(format_me):
     if len(format_me) < 8:
-        return format_me.zfill(8 - len(format_me) + len(format_me))
+        return format_me.zfill((8 - len(format_me)) + len(format_me))
 
 sample_name = 'loop001.wav'
 
