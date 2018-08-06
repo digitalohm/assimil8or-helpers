@@ -8,9 +8,7 @@ The prst002.yml file is meant to be an ongoing evolution of a preset template th
 
 # Slicer
 
-The idea is a simple script that spits out preformatted text that divides a sample into 8 equal lengths (some precision lost from rounding).  I created this so that I could more easily divide zones and then fine tune the start and stop settings at the module.  It currently outputs the voltage table associated with the XOR NerdSeq that maps C-4 and up (incrmenting by note) to each Zone 8 thru 1 (in that order).  It would be neat if the community would add more voltage tables for their specific sequencers and workflows.
-
-This is still being tested
+The idea is a simple script that spits out preformatted text that divides a sample into 8 equal lengths (some precision lost from rounding).  I created this so that I could more easily divide zones and then fine tune the start and stop settings at the module.  It currently outputs the voltage table associated with the XOR NerdSeq that maps C-4 thru G-4 to each Zone 8 thru 1 (in that order).  It would be neat if the community would add more voltage tables for their specific sequencers and workflows.
 
 # Thanks
 
