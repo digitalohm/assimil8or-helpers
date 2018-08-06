@@ -10,7 +10,7 @@ The prst002.yml file is meant to be an ongoing evolution of a preset template th
 
 The idea is a simple script that spits out preformatted text that divides a sample into 8 equal lengths (some precision lost from rounding).  I created this so that I could more easily divide zones and then fine tune the start and stop settings at the module.  It currently outputs the voltage table associated with the XOR NerdSeq that maps C-4 thru G-4 to each Zone 8 thru 1 (in that order).  It would be neat if the community would add more voltage tables for their specific sequencers and workflows.
 
-![alt tag](https://i.imgur.com/T0tSEb5l.png "Slicer Output")
+![alt tag](https://i.imgur.com/T0tSEb5h.png "Slicer Output")
 
 # Exporter
 
@@ -21,6 +21,8 @@ This script came about as I was previewing samples in Ableton.  I really like th
 # Generator
 
 So this happened, after I finished up with the exporter.  I realized there were still some tedious manual processes that I wanted to eliminate so this is the beginning of that.  The exporter creates sub directories in the destination (see above).  Each of these sub directories represent a channel on the a8.  Simply drag and drop the files exported from the exporter and then run the Generator for the beginnings of a workable .yml file.  You can also bypass the exporter part and just create the directory sturcture and drag and drop samples into them.
+
+![alt tag](https://i.imgur.com/u6RQ0kVh.png "Generator Sub Dir")
 
 # Thanks
 
