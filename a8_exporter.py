@@ -5,12 +5,18 @@ project_dir = "prst001"
 source_dir = '/Users/digitalohm/Documents/Ableton/' + project_dir + ' Project/Samples/Imported'
 temp_dir = "/Users/digitalohm/Documents/temp_samples"
 dest_dir = "/Users/digitalohm/Documents/test_samples"
+sub_dir = ['1', '2', '3', '4', '5', '6', '7', '8']
 
 if not os.path.exists(temp_dir):
     os.mkdir(temp_dir)
 
 if not os.path.exists(dest_dir):
     os.mkdir(dest_dir)
+
+i = 0
+for subdirectory in sub_dir:
+    os.mkdir(dest_dir + '/' + sub_dir[i])
+    i += 1
 
 for root, dirnames, filenames in os.walk(source_dir):
     for file in filenames:
