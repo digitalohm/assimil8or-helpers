@@ -21,11 +21,17 @@ with contextlib.closing(wave.open(sample_name,'r')) as f:
 count = 0
 part = 0
 
-while (count < 8):
-    print('Zone ' + str((count+1)) + ':')
-    print('  Sample : ' + sample_name)
-    print('  SampleStart : ' + formatnumber(str(part)))
-    print('  SampleEnd : ' + formatnumber(str(part + division)))
-    print('  MinVoltage : ' + vt_nerdseq_001[count])
+while count < 8:
+    if count == 0:
+        print('Zone ' + str((count+1)) + ':')
+        print('  Sample : ' + sample_name)
+        print('  SampleEnd : ' + formatnumber(str(part + division)))
+        print('  MinVoltage : ' + vt_nerdseq_001[count])
+    else:
+        print('Zone ' + str((count+1)) + ':')
+        print('  Sample : ' + sample_name)
+        print('  SampleStart : ' + formatnumber(str(part)))
+        print('  SampleEnd : ' + formatnumber(str(part + division)))
+        print('  MinVoltage : ' + vt_nerdseq_001[count])
     part = (part + division + 1)
     count = count + 1
