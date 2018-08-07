@@ -2,7 +2,7 @@ import glob, os, re
 
 vt_nerdseq_001 = ['+4.56', '+4.48', '+4.39', '+4.31', '+4.23', '+4.14', '+4.04', '-5.00']
 
-preset = "prst004"
+preset = "prst003"
 
 sample_dir = '/Users/digitalohm/Documents/' + preset
 
@@ -29,7 +29,10 @@ for directory in channels:
     for root, dirnames, filenames in os.walk(sample_dir + '/' + str(i)):
         for file in filenames:
             (shortname, extension) = os.path.splitext(file)
-            samples.append(file)
+            if len(shortname) > 47:
+                samples.append(shortname[:-(len(shortname)-47)] + extension)
+            else:
+                samples.append(file)
 
     samples.sort()
     j = 0
