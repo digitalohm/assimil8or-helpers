@@ -16,11 +16,15 @@ The idea is a simple script that spits out preformatted text that divides a samp
 
 This script came about as I was previewing samples in Ableton.  I really like the drum rack when working with samples, it allows me to create and preview combinations of samples in a rather rapid way.  After doing this, I wanted to be able to export the files for use on the assimil8or.  The workflow as of now is to create a drum rack in an empty ableton project, save the project with the name prstXXX (whatever preset I'm making), then collect and save.  From there the python script with some edited variables will copy the .wav samples (you can't do this with Ableton's punk ass aif format) into a temp directory, rename them so they have the prefix prstXXX_ and then outputs them to a directory.  During this process the exporter will create 8 sub directories for use with the Generator (see below).
 
+To use you'll need to update the project_dir, source_dir, temp_dir and dest_dir variables.  For example when I save my ableton projects that I'm using for this task, I save them as: "prst00X Project" so you can see that I've made the variables to match.  If your folder containing the samples is /Users/you/kewlPreset then use that.  The project_dir is only for string building so if you update the other 3 it shouldn't matter.
+
 ![alt tag](https://i.imgur.com/aehGq34h.png "Exporter Output")
 
 # Generator
 
 So this happened, after I finished up with the exporter.  I realized there were still some tedious manual processes that I wanted to eliminate so this is the beginning of that.  The exporter creates sub directories in the destination (see above).  Each of these sub directories represent a channel on the a8.  Simply drag and drop the files exported from the exporter and then run the Generator for the beginnings of a workable .yml file.  You can also bypass the exporter part and just create the directory sturcture and drag and drop samples into them.
+
+To use simply change the preset and sample_dir variables to match what and where you are working on and GO  
 
 ![alt tag](https://i.imgur.com/u6RQ0kVh.png "Generator Sub Dir")
 
