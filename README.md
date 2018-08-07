@@ -30,4 +30,4 @@ Thanks to Gimber and IOManip for letting me constantly ping ideas about this, wo
 
 Thanks to Rossum Electro for making kewl modules, and special thanks to Marco at Rossum for putting up with my constant support requests :D
 
-The code was adapated from this stack answer https://stackoverflow.com/a/40652047
+Most of the code was adapated from various solutions on stackexchange.  The developer community is great
