@@ -4,7 +4,7 @@ Scripts I'm using while working with the Rossum-Electro Assimil8or.  The idea is
 
 # Preset Template
 
-The prst002.yml file is meant to be an ongoing evolution of a preset template that allows me to quickly dial in the values I like to use when working with the module.  This can save some time based on perferred cv mappings etc.  The other benefit I realized was the ability to preview samples on a computer, and place them in the template so they are loaded at the module, rather than previewing samples, copying them onto the microsd and turning the knob to select them.
+The prst002.yml file is meant to be an ongoing evolution of a preset template that allows me to quickly dial in the values I like to use when working with the module.  This can save some time based on perferred cv mappings etc.  The other benefit I realized was the ability to preview samples on a computer, and place them in the template so they are loaded at the module, rather than previewing samples, copying them onto the microsd and turning the knob to select them.  Initially this was kind of the only reason I made a repo, to hold templates and keep track of changes...but then see below for what happened...
 
 # Slicer
 
