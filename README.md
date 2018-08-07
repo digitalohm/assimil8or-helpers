@@ -18,7 +18,9 @@ This script came about as I was previewing samples in Ableton.  I really like th
 
 To use you'll need to update the project_dir, source_dir, temp_dir and dest_dir variables.  For example when I save my ableton projects that I'm using for this task, I save them as: "prst00X Project" so you can see that I've made the variables to match.  If your folder containing the samples is /Users/you/kewlPreset then use that.  The project_dir is only for string building so if you update the other 3 it shouldn't matter.
 
-![alt tag](https://i.imgur.com/aehGq34h.png "Exporter Output")
+![alt tag](https://i.imgur.com/p2FHeZ9h.png "Exporter Output")
+
+![alt tag](https://i.imgur.com/aehGq34h.png "Sub Directory Example")
 
 # Generator
 
