@@ -2,11 +2,13 @@ import glob, os, re
 
 vt_nerdseq_001 = ['+4.56', '+4.48', '+4.39', '+4.31', '+4.23', '+4.14', '+4.04', '-5.00']
 
-sample_dir = "/Users/digitalohm/Documents/prst001/"
+preset = "prst004"
+
+sample_dir = '/Users/digitalohm/Documents/' + preset
 
 channels = []
 print('Preset 1 :')
-print('  Name : ' + sample_dir[len(sample_dir)-8:len(sample_dir)-1])
+print('  Name : ' + sample_dir[len(sample_dir)-7:len(sample_dir)])
 ## Loop one time for directories that are not empty
 for root, dirnames, filenames in os.walk(sample_dir):
     for directory in dirnames:
@@ -35,7 +37,7 @@ for directory in channels:
         #print(''.join(filter(str.isdigit, sample[7:len(sample)])))
         print('    Zone ' + str((j+1)) + ':')
         print('      Sample : ' + sample)
-        print('      MinVoltage : ' + vt_nerdseq_001[i])
+        print('      MinVoltage : ' + vt_nerdseq_001[j])
         j += 1
     del sample
     i += 1
