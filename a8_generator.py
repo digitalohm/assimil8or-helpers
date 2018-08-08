@@ -1,12 +1,21 @@
-import glob, os, re
+import os, shutil, glob, re, argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-p", "--preset", required=True, help="name of the preset")
+parser.add_argument("-d", "--directory", required=True, help="location of the samples")
+parser.add_argument("-g", "--generate", help="generate the yml and sample set", action="store_true")
+args = vars(parser.parse_args())
 
 ## Voltage table for the nerseq.  This is for notes C-4 through G-4 to hit Zones 8 thru 1 (in that order)
 vt_nerdseq_001 = ['+4.56', '+4.48', '+4.39', '+4.31', '+4.23', '+4.14', '+4.04', '-5.00']
 
 ## This is the name of the preset which works nicely if it's the same name as your sample source folder
-preset = "prst003"
+#preset = "prst003"
+preset = args["preset"]
 
-sample_dir = '/Users/digitalohm/Documents/' + preset
+#sample_dir = '/Users/digitalohm/Documents/' + preset
+if os.path.isdir(args["directory"]):
+    sample_dir = args["directory"]
 
 ## First we build a list of the channel directories that are not empty, and print the beginnings of the yml
 channels = []

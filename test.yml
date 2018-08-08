@@ -1,0 +1,149 @@
+Preset 1 :
+  Name : prst003
+  Channel 1: 
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1:
+      Sample : prst003_A_808_01.wav
+      MinVoltage : +4.56
+    Zone 2:
+      Sample : prst003_Basimilus Sub Drop (Percussion).wav
+      MinVoltage : +4.48
+  Channel 2: 
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1:
+      Sample : prst003_Basimilus Trash Snare (Percussion).wav
+      MinVoltage : +4.56
+    Zone 2:
+      Sample : prst003_Brute Snare III Sidestick (Percussion).wav
+      MinVoltage : +4.48
+  Channel 3: 
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1:
+      Sample : prst003_Basimilus Hat III (Percussion).wav
+      MinVoltage : +4.56
+    Zone 2:
+      Sample : prst003_Defleshing Automata (Percussion) copy l.wav
+      MinVoltage : +4.48
+    Zone 3:
+      Sample : prst003_Defleshing Automata (Percussion).wav
+      MinVoltage : +4.39
+    Zone 4:
+      Sample : prst003_Dirty Hat Closed (Percussion).wav
+      MinVoltage : +4.31
+    Zone 5:
+      Sample : prst003_Dope Hat (Percussion).wav
+      MinVoltage : +4.23
+  Channel 4: 
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1:
+      Sample : prst003_Basimilus Zap (Percussion).wav
+      MinVoltage : +4.56
+    Zone 2:
+      Sample : prst003_Modularnoise_01_SP.wav
+      MinVoltage : +4.48
+    Zone 3:
+      Sample : prst003_Stabber_02_SP.wav
+      MinVoltage : +4.39
+  Channel 5: 
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1:
+      Sample : prst003_120_G_ViolinMel_01_SP.wav
+      MinVoltage : +4.56
+    Zone 2:
+      Sample : prst003_120_G_ViolinMel_05_SP.wav
+      MinVoltage : +4.48
+    Zone 3:
+      Sample : prst003_120_G_ViolinRhythm_01_SP.wav
+      MinVoltage : +4.39
+    Zone 4:
+      Sample : prst003_120_G_ViolinRhythm_05_SP.wav
+      MinVoltage : +4.31
+    Zone 5:
+      Sample : prst003_120_G_ViolinSust_01_SP.wav
+      MinVoltage : +4.23
+    Zone 6:
+      Sample : prst003_ContortedMetalAlt.wav
+      MinVoltage : +4.14
+  Channel 6: 
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1:
+      Sample : .DS_Store
+      MinVoltage : +4.56
+    Zone 2:
+      Sample : prst003_120_G_ViolinMel_02_SP.wav
+      MinVoltage : +4.48
+    Zone 3:
+      Sample : prst003_120_G_ViolinRhythm_02_SP.wav
+      MinVoltage : +4.39
+    Zone 4:
+      Sample : prst003_120_G_ViolinRhythm_06_SP.wav
+      MinVoltage : +4.31
+    Zone 5:
+      Sample : prst003_120_G_ViolinSust_02_SP.wav
+      MinVoltage : +4.23
+  Channel 7: 
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1:
+      Sample : prst003_120_G_ViolinMel_03_SP.wav
+      MinVoltage : +4.56
+    Zone 2:
+      Sample : prst003_120_G_ViolinQuart_01_SP.wav
+      MinVoltage : +4.48
+    Zone 3:
+      Sample : prst003_120_G_ViolinRhythm_03_SP.wav
+      MinVoltage : +4.39
+    Zone 4:
+      Sample : prst003_120_G_ViolinRhythm_07_SP.wav
+      MinVoltage : +4.31
+    Zone 5:
+      Sample : prst003_120_G_ViolinSust_03_SP.wav
+      MinVoltage : +4.23
+  Channel 8: 
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1:
+      Sample : prst003_120_G_ViolinMel_04_SP.wav
+      MinVoltage : +4.56
+    Zone 2:
+      Sample : prst003_120_G_ViolinQuart_02_SP.wav
+      MinVoltage : +4.48
+    Zone 3:
+      Sample : prst003_120_G_ViolinRhythm_04_SP.wav
+      MinVoltage : +4.39
+    Zone 4:
+      Sample : prst003_120_G_ViolinRhythm_08_SP.wav
+      MinVoltage : +4.31
+    Zone 5:
+      Sample : prst003_120_G_ViolinSust_04_SP.wav
+      MinVoltage : +4.23

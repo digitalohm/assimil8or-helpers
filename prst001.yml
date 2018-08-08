@@ -1,0 +1,194 @@
+Preset 1 :
+  Name : prst001
+  Channel 1 :
+    Release :  0.8000
+    LinFM : 0C 0.00
+    LinAM : Off 0.00
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1 :
+      Sample : prst001_AnaKick_SP_01.wav
+      MinVoltage : +4.56
+    Zone 2 :
+      Sample : prst001_Heavy_Bit_Kick_SP.wav
+      MinVoltage : +4.48
+    Zone 3 :
+      Sample : prst001_Noise_Kick_SP.wav
+      MinVoltage : +4.39
+    Zone 4 :
+      Sample : Brute Kick I (Percussion).wav
+      SampleEnd : 44100
+      MinVoltage : +4.31
+    Zone 5 :
+      Sample : Uncle Tom's Blackened Kick (Percussion).wav
+      SampleEnd : 22739
+      MinVoltage : +4.23
+    Zone 6 :
+      Sample : Prophet 12 Kick Long (Percussion).wav
+      SampleEnd : 94450
+      MinVoltage : +4.14
+    Zone 7 :
+      Sample : Pentode Kick (Percussion).wav
+      SampleEnd : 41091
+      MinVoltage : +4.04
+    Zone 8 :
+      Sample : Basimilus Sub Drop (Percussion).wav
+      SampleEnd : 50142
+      MinVoltage : -5.00
+  Channel 2 :
+    Release :  0.6200
+    MixLevel : +2.0
+    PMSource : 7
+    ReleaseMod : 0B 1.00
+    PanMod : Off -1.00
+    SpliceSmoothing : 1
+    ZonesCV : 0B
+    ZonesRT : 1
+    Zone 1 :
+      Sample : Vintage Machines Snare (Percussion).wav
+      LoopLength :    367.3750
+      MinVoltage : +4.56
+    Zone 2 :
+      Sample : RamphoidCuspAlt.wav
+      LoopLength :    367.3750
+      MinVoltage : +4.48
+    Zone 3 :
+      Sample : Erbeverb Snare (Percussion).wav
+      LoopLength :    367.3750
+      MinVoltage : +4.39
+    Zone 4 :
+      Sample : Sinth Steam (Percussion).wav
+      LoopLength :    367.3750
+      MinVoltage : +4.31
+    Zone 5 :
+      Sample : Stacked Noise Snare (Percussion).wav
+      LoopLength :    367.3750
+      MinVoltage : +4.23
+    Zone 6 :
+      Sample : Pentode Snare (Percussion).wav
+      LoopLength :    367.3750
+      MinVoltage : +4.14
+    Zone 7 :
+      Sample : Noise Blade Snare (Percussion.wav
+      LoopLength :    367.3750
+      MinVoltage : +4.04
+    Zone 8 :
+      Sample : Wraith Kit III (Percussion).wav
+      LoopLength :    367.3750
+      MinVoltage : -5.00
+  Channel 3 :
+    Release :  0.6100
+    MixLevel : +3.0
+    ReleaseMod : 0C -1.00
+    ZonesCV : 0A
+    Zone 1 :
+      Sample : Defleshing Automata (Percussion).wav
+      MinVoltage : +4.58
+    Zone 2 :
+      Sample : Dirty Hat (Percussion).wav
+      MinVoltage : +4.48
+    Zone 3 :
+      Sample : Dirty Hat Closed (Percussion).wav
+      MinVoltage : +4.41
+    Zone 4 :
+      Sample : Dope Hat (Percussion).wav
+      MinVoltage : +4.33
+    Zone 5 :
+      Sample : LichtelineAlt3.wav
+      MinVoltage : +4.25
+    Zone 6 :
+      Sample : Machine Hat (Percussion).wav
+      MinVoltage : +4.16
+    Zone 7 :
+      Sample : Trip Hat (Percussion).wav
+      MinVoltage : +4.07
+    Zone 8 :
+      Sample : Sinth Steam (Percussion).wav
+      MinVoltage : -5.00
+  Channel 4 :
+    Pitch : +0.29
+    Release : 99.0000
+    PitchCV : 0A 0.50
+    ReleaseMod : 0C 1.00
+    ZonesCV : 0B
+    Zone 1 :
+      Sample : cw_amen08_165.wav
+      SampleEnd : 6058
+      MinVoltage : +4.56
+    Zone 2 :
+      Sample : cw_amen08_165.wav
+      SampleStart : 6211
+      MinVoltage : +4.48
+    Zone 3 :
+      Sample : cw_amen08_165.wav
+      MinVoltage : +4.39
+    Zone 4 :
+      Sample : cw_amen08_165.wav
+      SampleStart : 102531
+      MinVoltage : +4.31
+    Zone 5 :
+      Sample : cw_amen08_165.wav
+      SampleStart : 123375
+      SampleEnd : 128290
+      MinVoltage : +4.23
+    Zone 6 :
+      Sample : cw_amen08_165.wav
+      SampleStart : 23948
+      SampleEnd : 39850
+      MinVoltage : +4.14
+    Zone 7 :
+      Sample : cw_amen08_165.wav
+      SampleStart : 16241
+      SampleEnd : 103324
+      MinVoltage : +4.04
+    Zone 8 :
+      Sample : cw_amen08_165.wav
+      SampleEnd : 79536
+      MinVoltage : -5.00
+  Channel 5 :
+    Pitch : -2.00
+    Release : 99.0000
+    Bits : 13.0
+    MixLevel : +6.0
+    PMSource : 8
+    LinFM : Off 0.00
+    ExpFM : Off 0.00
+    SpliceSmoothing : 1
+    Zone 1 :
+      Sample : 140_Gm_FGBass_SP_01.wav
+      SampleEnd : 302400
+  Channel 6 :
+    Pitch : -26.20
+    Pan : -0.40
+    Attack :  0.0020
+    Release : 99.0000
+    PMSource : 8
+    PMIndex : 0.17
+    LinFM : 8C 0.09
+    PMIndexMod : 8C 1.00
+    LinAM : 8C 0.00
+    LoopMode : 1
+    SpliceSmoothing : 1
+    Zone 1 :
+      Sample : LichtelineAlt3.wav
+      SampleStart : 3654
+      LoopLength : 314096.0000
+      Side : 1
+  Channel 8 :
+    Pitch : -16.79
+    Level : -10.0
+    Pan : -0.30
+    Release :  1.6000
+    MixLevel : -90.0
+    PMSource : 8
+    PitchCV : 0A 0.50
+    PMIndexMod : 0C 0.18
+    ReleaseMod : 0B 1.00
+    PanMod : Off 0.00
+    LoopStartMod : 0C 0.00
+    LoopMode : 1
+    SpliceSmoothing : 1
+    Zone 1 :
+      Sample : WT_BANK_C.WAV
+      SampleEnd : 16384
+      LoopLength :    256.0000
