@@ -26,7 +26,7 @@ To use you'll need to update the project_dir, source_dir, temp_dir and dest_dir 
 
 So this happened, after I finished up with the exporter.  I realized there were still some tedious manual processes that I wanted to eliminate so this is the beginning of that.  The exporter creates sub directories in the destination (see above).  Each of these sub directories represent a channel on the a8.  Simply drag and drop the files exported from the exporter and then run the Generator for the beginnings of a workable .yml file.  You can also bypass the exporter part and just create the directory sturcture and drag and drop samples into them.
 
-To use simply change the preset and sample_dir variables to match what and where you are working on and GO  
+To use simply change the preset and sample_dir variables to match what and where you are working on and run.  If you want the text to be put into a file try `python a8_generator.py > test.yml`
 
 ![alt tag](https://i.imgur.com/u6RQ0kVh.png "Generator Sub Dir")
 
