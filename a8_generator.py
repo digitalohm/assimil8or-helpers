@@ -10,10 +10,8 @@ args = vars(parser.parse_args())
 vt_nerdseq_001 = ['+4.56', '+4.48', '+4.39', '+4.31', '+4.23', '+4.14', '+4.04', '-5.00']
 
 ## This is the name of the preset which works nicely if it's the same name as your sample source folder
-#preset = "prst003"
 preset = args["preset"]
 
-#sample_dir = '/Users/digitalohm/Documents/' + preset
 if os.path.isdir(args["directory"]):
     sample_dir = args["directory"]
 
