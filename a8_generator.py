@@ -15,7 +15,7 @@ print('  Name : ' + sample_dir[len(sample_dir)-7:len(sample_dir)])
 ## Loop one time for directories that are not empty
 for root, dirnames, filenames in os.walk(sample_dir):
     for directory in dirnames:
-        if os.listdir(sample_dir + '/' + directory) :
+        if os.listdir(sample_dir + '/' + directory):
             channels.append(directory)
 
 ## Next we loop through each folder from the channles[] list and print the yml
@@ -31,10 +31,11 @@ for directory in channels:
     for root, dirnames, filenames in os.walk(sample_dir + '/' + str(i)):
         for file in filenames:
             (shortname, extension) = os.path.splitext(file)
-            if len(shortname) > 47:
-                samples.append(shortname[:-(len(shortname)-47)] + extension)
-            else:
-                samples.append(file)
+            if extension == '.wav':
+                if len(shortname) > 47:
+                    samples.append(shortname[:-(len(shortname)-47)] + extension)
+                else:
+                    samples.append(file)
 
     samples.sort()
     j = 0
@@ -44,6 +45,6 @@ for directory in channels:
         print('      Sample : ' + sample)
         print('      MinVoltage : ' + vt_nerdseq_001[j])
         j += 1
-        
+
     del sample
     i += 1
