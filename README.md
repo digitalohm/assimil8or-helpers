@@ -24,7 +24,7 @@ To use you'll need to update the project_dir, source_dir, temp_dir and dest_dir 
 
 # Generator
 
-The generator will create the copy the samples and create the .yml file in a folder that can be copied to the a8.
+The generator will create the copy the samples and create the .yml file in a folder that can be copied to the a8.  
 
 To use: execute the script with the -p and -d parameters, like so `python3 a8_generator.py -p prst006 -d /Users/digitalohm/Documents` the -p or --preset parameter tells the script what preset I'm wanting to work on.  The -d or --directory parameter gives the directory path for where I have the preset folders.  This will also be the path where the final results are written to.
 
