@@ -26,7 +26,7 @@ To use you'll need to update the project_dir, source_dir, temp_dir and dest_dir 
 
 So this happened, after I finished up with the exporter.  I realized there were still some tedious manual processes that I wanted to eliminate so this is the beginning of that.  The exporter creates sub directories in the destination (see above).  Each of these sub directories represent a channel on the a8.  Simply drag and drop the files exported from the exporter and then run the Generator for the beginnings of a workable .yml file.  You can also bypass the exporter part and just create the directory sturcture and drag and drop samples into them.
 
-To use simply change the preset and sample_dir variables to match what and where you are working on and run.  If you want the text to be put into a file try `python a8_generator.py > test.yml`
+To use: execute the script with the -p and -d parameters, like so `python3 a8_generator.py -p prst006 -d /Users/digitalohm/Documents` the -p or --preset parameter tells the script what preset I'm wanting to work on.  The -d or --directory parameter gives the directory path for where I have the preset folders.  This will also be the path where the final results are written to.
 
 ![alt tag](https://i.imgur.com/u6RQ0kVh.png "Generator Sub Dir")
 
