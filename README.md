@@ -36,9 +36,9 @@ To use you'll need to update the project_dir, source_dir, temp_dir and dest_dir 
 
 The generator will create the copy the samples and create the .yml file in a folder that can be copied to the a8.  
 
-To use: execute the script with the -p and -d parameters, like so 
+To use: execute the script with the -p, -n and -d parameters, like so 
 
-`python3 a8_generator.py -p prst006 -d /Users/digitalohm/Documents` 
+`python3 a8_generator.py -p prst006 -n 6 -d /Users/digitalohm/Documents` 
 
 See --help for the explaination
 
