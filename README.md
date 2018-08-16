@@ -44,6 +44,14 @@ See --help for the explaination
 
 ![alt tag](https://i.imgur.com/u6RQ0kVh.png "Generator Sub Dir")
 
+# Semitone Generator
+
+This will simply calculate the semitones you can use in order to pitch up or down a sample to a desired bpm.
+
+To use: execute the script with the -o (orignal bpm) and -t (target bpm) parameters
+
+`python3 bpm.py -o 120 -t 128`
+
 # Thanks
 
 Thanks to Gimber and IOManip for letting me constantly ping ideas about this, workflows and formulas.  Many thanks for their corrections :D
